@@ -6,8 +6,9 @@ export const sidebar = {
       text: "Introduction",
       items: [
         { text: "Why Akemona", link: "/introduction" },
-        { text: "Getting Started", link: "/getting-started" },
         { text: "FAQ", link: "/faq" },
+        { text: "Staking Rules", link: "/staking-rules" },
+        { text: "Licensing Guide", link: "/licensing-guide" },
       ],
     },
     {
