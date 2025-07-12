@@ -2,19 +2,14 @@
 
 The staking protocol will launch after the completion of the \$AKENRO token distribution. Below is the finalized framework that governs staking, rewards, DAO governance participation, and withdrawal.
 
-
-
 ## Staking Overview
 
-* Minimum stake: **1 \$AKENRO**
-* Upon staking, users receive **stAKENRO**, a liquid staking token that:
-
-  * Represents their staked balance
-  * Accrues staking yield
-  * Grants governance power
-  * May be integrated into DeFi protocols (e.g., LPs, delegation tools)
-
-
+- Minimum stake: **1 \$AKENRO**
+- Upon staking, users receive **stAKENRO**, a liquid staking token that:
+  - Represents their staked balance
+  - Accrues staking yield
+  - Grants governance power
+  - May be integrated into DeFi protocols (e.g., LPs, delegation tools)
 
 ## Staking Yields
 
@@ -22,32 +17,28 @@ All staking rewards are paid in \$AKENRO from the **Akemona Protocol Treasury**,
 
 ### Base Staking (Flexible)
 
-* **Yield:** 8.35% APY
-* **Unstake anytime**
-* Weekly rewards, no bonus for long-term lock
-
-
+- **Yield:** 8.35% APY
+- **Unstake anytime**
+- Weekly rewards, no bonus for long-term lock
 
 ### Fixed-Term Staking Options
 
-| Duration | Total Yield | Structure                                                                                                           |
-| -------- | ----------- | ------------------------------------------------------------------------------------------------------------------- |
-| 1 Year   | 15.25%      | 8.35% paid weekly + annual lump sum on Day 365                                                                      |
-| 2 Years  | 20.45%      | Year 1: same as above<br>Year 2: 15.25% weekly + lump sum on Day 730                                                |
-| 3 Years  | 25.70%      | Year 1: 8.35% paid weekly + annual lump sum on Day 365<br>Year 2: 15.25% weekly + lump sum on Day 730<br>Year 3: 20.45% weekly + final bonus lump sum |
+| Duration | Total Yield | Structure                                                                                                                                               |
+| -------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 Year   | 15.25%      | 8.35% paid weekly + annual lump sum on Day 365                                                                                                          |
+| 2 Years  | 20.45%      | Year 1: same as above<br/>Year 2: 15.25% weekly + lump sum on Day 730                                                                                   |
+| 3 Years  | 25.70%      | Year 1: 8.35% paid weekly + annual lump sum on Day 365<br/>Year 2: 15.25% weekly + lump sum on Day 730<br/>Year 3: 20.45% weekly + final bonus lump sum |
 
 After the completion of a fixed-term, staking rewards revert to the base rate. To continue earning fixed-term yields, stakers must withdraw and restake their \$AKENRO tokens for a new fixed-term period.
 
 ### Early Unstaking from Fixed Terms
 
-* If unstaking occurs **before the fixed term ends**, the staker receives rewards **based on the nearest completed milestone**:
+- If unstaking occurs **before the fixed term ends**, the staker receives rewards **based on the nearest completed milestone**:
+  - \<1 year: base 8.35%
+  - ≥1 year but \<2 years: 15.25%
+  - ≥2 years but \<3 years: 20.45%
 
-  * <1 year: base 8.35%
-  * ≥1 year but <2 years: 15.25%
-  * ≥2 years but <3 years: 20.45%
-* Lump sum bonuses are **forfeited** if the milestone is not completed.
-
-
+- Lump sum bonuses are **forfeited** if the milestone is not completed.
 
 ## Governance Participation
 
@@ -55,54 +46,41 @@ Staking \$AKENRO automatically enrolls you in the **Akemona DAO**, granting righ
 
 ### DAO Rights via stAKENRO:
 
-* **Proposal Submission:** Requires **100,000 stAKENRO** in wallet.
-* **Voting:** stAKENRO = governance weight.
-* **Proposal Rewards:** Up to **25,000 \$AKENRO** per approved proposal, disbursed quarterly.
-
-  * Proposer must retain 100,000 stAKENRO throughout the reward cycle.
+- **Proposal Submission:** Requires **100,000 stAKENRO** in wallet.
+- **Voting:** stAKENRO = governance weight.
+- **Proposal Rewards:** Up to **25,000 \$AKENRO** per approved proposal, disbursed quarterly.
+  - Proposer must retain 100,000 stAKENRO throughout the reward cycle.
 
 ### Additional Utilities:
 
-* stAKENRO may be integrated into:
-
-  * Liquidity pools and DeFi strategies
-  * Governance aggregators for delegated voting
-
-
+- stAKENRO may be integrated into:
+  - Liquidity pools and DeFi strategies
+  - Governance aggregators for delegated voting
 
 ## Foundation Governance
 
 As a DAO member, you are also eligible to:
 
-* **Run for Board election** to the Akemona Foundation
-* **Vote in biannual elections** or when a seat is vacated
-* **Apply for Foundation grants**, regardless of your voting weight
-
-
+- **Run for Board election** to the Akemona Foundation
+- **Vote in biannual elections** or when a seat is vacated
+- **Apply for Foundation grants**, regardless of your voting weight
 
 ## Unstaking & Withdrawal
 
-* Unstaking can be initiated **at any time** from the stAKENRO-holding wallet.
-* Once initiated, a **28-day unbonding period** begins.
+- Unstaking can be initiated **at any time** from the stAKENRO-holding wallet.
+- Once initiated, a **28-day unbonding period** begins.
+  - During this period:
+    - Tokens are non-transferable and ineligible for rewards
+    - stAKENRO are locked
+    - stAKENRO must remain in your wallet to retain DAO rights
 
-  * During this period:
-
-    * Tokens are non-transferable and ineligible for rewards
-    * stAKENRO are locked
-    * stAKENRO must remain in your wallet to retain DAO rights
-* After 28 days:
-
-  * \$AKENRO becomes **available for manual withdrawal**
-  * Tokens must be withdrawn manually to regain liquidity
-  * Upon withdrawal stAKENRO are burned and $AKENRO are transferred to the wallet
-
-
+- After 28 days:
+  - \$AKENRO becomes **available for manual withdrawal**
+  - Tokens must be withdrawn manually to regain liquidity
+  - Upon withdrawal stAKENRO are burned and $AKENRO are transferred to the wallet
 
 ## Notes & Flexibility
 
-* Yield rates are subject to DAO governance and may be updated **twice per quarter**.
-* All staking logic is **on-chain and transparent**.
-* The protocol prioritizes **reward fairness**, **capital efficiency**, and **DAO-driven evolution**.
-
-
-
+- Yield rates are subject to DAO governance and may be updated **twice per quarter**.
+- All staking logic is **on-chain and transparent**.
+- The protocol prioritizes **reward fairness**, **capital efficiency**, and **DAO-driven evolution**.
