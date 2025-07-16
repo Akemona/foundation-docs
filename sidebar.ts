@@ -9,6 +9,7 @@ export const sidebar = {
         { text: "FAQ", link: "/faq" },
         { text: "Staking Rules", link: "/staking-rules" },
         { text: "Licensing Guide", link: "/licensing-guide" },
+        { text: "Licensing Terms", link: "/licensing-terms" },        
       ],
     },
     {
