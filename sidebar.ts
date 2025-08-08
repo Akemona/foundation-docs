@@ -7,10 +7,10 @@ export const sidebar = {
       items: [
         { text: "Why Akemona", link: "/introduction" },
         { text: "FAQ", link: "/faq" },
-        { text: "Staking Rules", link: "/akenro-tokenomics" },
+        { text: "Akenro Tokenomics", link: "/akenro-tokenomics" },
         { text: "Staking Rules", link: "/staking-rules" },
         { text: "Licensing Guide", link: "/licensing-guide" },
-        { text: "Licensing Terms", link: "/licensing-terms" },        
+        { text: "Licensing Terms", link: "/licensing-terms" },
       ],
     },
     {
